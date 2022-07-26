@@ -1,0 +1,132 @@
+body{
+
+	font-family:  'League Spartan', sans-serif;
+    background-color: hsl(222, 26%, 31%);
+
+	}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+  
+h1 {
+    font-size: 32px;
+    margin-top: 1rem;
+    height: 1rem;
+}
+  
+/*Start switch*/
+.container-main {
+    width: 90%;
+    height: 750px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+  
+.switch {
+    width: 70px;
+    margin: 0px auto;
+    height: 25px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+  
+.switch::before 
+{
+    content: "THEME";
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-weight: bold;
+    position: absolute;
+    margin-right: 150px;
+    height: 20px;
+    width: 60px;
+
+}
+  
+.switch input {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    opacity: 0;
+    background-color:  hsl(6, 63%, 50%);
+    transition: 0.2s ease;
+}
+  
+.switch input:hover {
+    cursor: pointer;
+}
+  
+.switch .selected {
+    opacity: 1;
+  
+}
+  
+.comp-swtich {
+    width: 70px;
+    height: 35px;
+}
+
+  
+.numbers {
+    display: flex;
+    width: 70px;
+    height: 17px;
+    justify-content: space-around;
+}
+  
+.numbers span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*End switch*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+
+	font-size: 11px; text-align: center; }
+
+
+.attribution a { 
+
+	color: hsl(228, 45%, 44%); 
+
+}
