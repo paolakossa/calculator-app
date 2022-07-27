@@ -97,10 +97,284 @@ h1 {
 
 /*End switch*/
 
+/*Start calculator*/
+
+#result{
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: hsl(223, 31%, 20%) center / cover;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: right;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.calculator{
+
+    background: hsl(223, 31%, 20%) center / cover;
+    height: 100vh;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.calculator_table {
+
+   
+    margin-left: 1rem;
+    height: 80vh;
+
+}
+
+.calculator_button1{
+
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    border-radius: 10px; 
+    margin-top: 2rem;
+    box-shadow: 1px 2px hsl(28, 16%, 65%);
 
 
 
 
+}
+
+.calculator_button{
+
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    border-radius: 10px; 
+    box-shadow: 1px 2px hsl(28, 16%, 65%);
+}
+
+.calculator_button_del{
+
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 10px; 
+    box-shadow: 1px 2px hsl(224, 28%, 35%);
+    
+
+}
+
+.calculator_button_reset {
+ 
+     background-color: hsl(225, 21%, 49%);
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    border-radius: 10px; 
+    box-shadow: 1px 2px  hsl(224, 28%, 35%);
+
+}
+
+.calculator_button_equal {
+ 
+     background-color: hsl(6, 63%, 50%);
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    border-radius: 10px; 
+    box-shadow: 1px 2px  hsl(6, 70%, 34%);
+
+}
+
+/*End calculator*/
+
+
+@media (min-width: 1280px) 
+{
+  header 
+  {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  h1 
+  {
+    margin-top: 24px;
+    height: 10px;
+  }
+  
+  .container-main 
+  {
+    width: 35%;
+    height: 750px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .switch 
+  {
+    width: 70px;
+    margin: 0px auto;
+    height: 25px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .switch::before 
+  {
+    content: "THEME";
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-weight: bold;
+    position: absolute;
+    margin-right: 150px;
+    height: 20px;
+    width: 60px;
+  }
+  
+  .switch input 
+  {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: hsl(25, 98%, 40%);
+    transition: 0.2s ease;
+  }
+  
+  .switch input:hover 
+  {
+    cursor: pointer;
+  }
+  
+  .switch .selected 
+  {
+    opacity: 1;
+  }
+  
+  .comp-swtich 
+  {
+    width: 70px;
+    height: 35px;
+  }
+  
+  .numbers 
+  {
+    display: flex;
+    width: 70px;
+    height: 17px;
+    justify-content: space-around;
+  }
+  
+  .numbers span 
+  {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+   
+    #result{
+
+    padding: 2rem;
+    
+}
+
+
+
+.calculator_table {
+
+   
+    margin-left: 2.5rem;
+    
+   
+
+}
+
+.calculator_button1{
+
+    
+    width: 80px;
+    height: 50px;
+     
+    
+}
+
+.calculator_button{
+
+    
+    width: 80px;
+    height: 50px;
+    
+}
+
+.calculator_button_del{
+
+    
+    width: 80px;
+    height: 50px;
+    
+    
+
+}
+
+.calculator_button_reset {
+ 
+     
+    width: 160px;
+    height: 50px;
+    
+}
+
+.calculator_button_equal {
+ 
+     
+    width: 160px;
+    height: 50px;
+    
+
+}
+
+  }
 
 
 
