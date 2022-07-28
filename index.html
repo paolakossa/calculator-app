@@ -35,51 +35,51 @@
 
           <main>
             
-           <p id="result">Resultado</p>
+           <p id="result"></p>
 
             <div class="calculator">
               
               <table class="calculator_table">
                 <tr>
                   
-                  <td><button class="calculator_button1">7</button></td>
-                  <td><button class="calculator_button1">8</button></td>
-                  <td><button class="calculator_button1">9</button></td>
-                  <td><button class="calculator_button_del">del</button></td>
+                  <td><button class="calculator_button1" onclick="insert('7')">7</button></td>
+                  <td><button class="calculator_button1" onclick="insert('8')">8</button></td>
+                  <td><button class="calculator_button1" onclick="insert('9')">9</button></td>
+                  <td><button class="calculator_button_del" onclick="back()">del</button></td>
 
                 </tr>
 
                 <tr>
                   
-                  <td><button class="calculator_button">4</button></td>
-                  <td><button class="calculator_button">5</button></td>
-                  <td><button class="calculator_button">6</button></td>
-                  <td><button class="calculator_button">+</button></td>
+                  <td><button class="calculator_button" onclick="insert('4')">4</button></td>
+                  <td><button class="calculator_button" onclick="insert('5')">5</button></td>
+                  <td><button class="calculator_button" onclick="insert('6')">6</button></td>
+                  <td><button class="calculator_button" onclick="insert('+')">+</button></td>
                   
                 </tr>
 
                 <tr>
                   
-                  <td><button class="calculator_button">1</button></td>
-                  <td><button class="calculator_button">2</button></td>
-                  <td><button class="calculator_button">3</button></td>
-                  <td><button class="calculator_button">-</button></td>
+                  <td><button class="calculator_button" onclick="insert('1')">1</button></td>
+                  <td><button class="calculator_button" onclick="insert('2')">2</button></td>
+                  <td><button class="calculator_button" onclick="insert('3')">3</button></td>
+                  <td><button class="calculator_button" onclick="insert('-')">-</button></td>
                   
                 </tr>
 
                 <tr>
                   
-                  <td><button class="calculator_button">.</button></td>
-                  <td><button class="calculator_button">0</button></td>
-                  <td><button class="calculator_button">/</button></td>
-                  <td><button class="calculator_button">x</button></td>
+                  <td><button class="calculator_button" onclick="insert('.')">.</button></td>
+                  <td><button class="calculator_button" onclick="insert('0')">0</button></td>
+                  <td><button class="calculator_button" onclick="insert('/')">/</button></td>
+                  <td><button class="calculator_button" onclick="insert('*')">x</button></td>
                   
                 </tr>
 
                 <tr>
                   
-                  <td colspan="2"><button class="calculator_button_reset">reset</button></td>
-                  <td colspan="2"><button class="calculator_button_equal" >=</button></td>
+                  <td colspan="2"><button class="calculator_button_reset" onclick="clean()">reset</button></td>
+                  <td colspan="2"><button class="calculator_button_equal" onclick="calc()" >=</button></td>
                   
                   
                 </tr>
@@ -93,7 +93,7 @@
 
 
   
-  
+   <script src="js/app.js"></script>
 
   </body>
 </html>

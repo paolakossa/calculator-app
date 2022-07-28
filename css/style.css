@@ -107,21 +107,25 @@ h1 {
     margin-bottom: 1rem;
     background: hsl(223, 31%, 20%) center / cover;
     border-radius: 10px;
-    padding: 1.5rem;
-    text-align: right;
+    height: 4rem;
+    padding: 0.5rem;
+    justify-content: flex-end;
     color: white;
     font-weight: 700;
     font-size: 32px;
+    display: flex;
+    align-items: center;
 
 }
 
 .calculator{
 
     background: hsl(223, 31%, 20%) center / cover;
-    height: 100vh;
+    height: 80vh;
     border-radius: 10px;
     margin-left: 1rem;
     margin-right: 1rem;
+
 
 }
 
@@ -129,7 +133,8 @@ h1 {
 
    
     margin-left: 1rem;
-    height: 80vh;
+   
+   
 
 }
 
@@ -142,14 +147,17 @@ h1 {
     font-size: 32px;
     font-weight: 700;
     margin-left: 0.5rem;
-    border-radius: 10px; 
+    border-radius: 5px; 
     margin-top: 2rem;
     box-shadow: 1px 2px hsl(28, 16%, 65%);
-
-
+    cursor: pointer;
+    border: none;
+   
 
 
 }
+
+
 
 .calculator_button{
 
@@ -160,9 +168,12 @@ h1 {
     font-size: 32px;
     font-weight: 700;
     margin-left: 0.3rem;
-    margin-top: 0.5rem;
-    border-radius: 10px; 
+    margin-top: 1rem;
+    border-radius: 5px; 
     box-shadow: 1px 2px hsl(28, 16%, 65%);
+     cursor: pointer;
+     border: none;
+     
 }
 
 .calculator_button_del{
@@ -176,8 +187,11 @@ h1 {
     text-transform: uppercase;
     margin-top: 2rem;
     margin-left: 0.5rem;
-    border-radius: 10px; 
+    border-radius: 5px; 
     box-shadow: 1px 2px hsl(224, 28%, 35%);
+    cursor: pointer;
+    border: none;
+    
     
 
 }
@@ -191,11 +205,13 @@ h1 {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-left: 0.3rem;
-    border-radius: 10px; 
+    border-radius: 5px; 
     box-shadow: 1px 2px  hsl(224, 28%, 35%);
-
+    cursor: pointer;
+    border: none;
+    
 }
 
 .calculator_button_equal {
@@ -206,10 +222,13 @@ h1 {
     height: 60px;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-left: 0.3rem;
-    border-radius: 10px; 
+    border-radius: 5px; 
     box-shadow: 1px 2px  hsl(6, 70%, 34%);
+    cursor: pointer;
+    border: none;
+
 
 }
 
@@ -278,7 +297,7 @@ h1 {
     height: 15px;
     border-radius: 100%;
     opacity: 0;
-    background-color: hsl(25, 98%, 40%);
+    background-color: hslhsl(6, 63%, 50%);
     transition: 0.2s ease;
   }
   
@@ -320,6 +339,17 @@ h1 {
 }
 
 
+.calculator{
+
+    background: hsl(223, 31%, 20%) center / cover;
+    width: 32vw;
+    height: 60vh;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
 
 .calculator_table {
 
